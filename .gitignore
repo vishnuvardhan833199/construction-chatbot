@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore data and vector stores
+data/
+vector_store/
+
+# Ignore Streamlit and model cache
+.streamlit/
+.cache/
+*.db
+*.sqlite
+*.safetensors
